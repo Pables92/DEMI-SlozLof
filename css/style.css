@@ -147,6 +147,12 @@ strong {
 	color: #FFFFFF;
 }
 
+#logotipo {
+	width:375; 
+	position:float;
+	top:150px;
+	left:100px;
+}
 
 
 
