@@ -53,6 +53,8 @@ strong {
 /* Page Wrapper */
 
 #page-wrapper {
+
+	background: url(images/footer-wrapper-bg.jpg) repeat;
 }
 
 #page-wrapper a img {
@@ -188,5 +190,15 @@ strong {
 .item img {
 
 	width:350px; /* Tiene que ser como el ancho de .item */
+
+}
+
+#forum_embed{
+
+	float:left;
+
+	margin-left: 320px;
+
+	background: url(images/footer-wrapper-bg.jpg) repeat;
 
 }
