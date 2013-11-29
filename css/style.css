@@ -25,6 +25,8 @@ h2 {
 	font-family: 'Magra', sans-serif;
 	font-size: 2.2em;
 	color: #171717;
+	margin-left: 70px;
+
 }
 
 p, ol {
@@ -174,7 +176,7 @@ strong {
 
 	width: 350px;
 
-	height: 350px;
+	height: 450px;
 
 	margin-bottom:30px; /* #separación con las filas inferiores */
 
