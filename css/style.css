@@ -13,7 +13,7 @@
 /* Basic */
 
 body {
-	background: #252525 url(images/main-content-bg.jpg) repeat;
+	background: url(images/footer-wrapper-bg.jpg) repeat;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 9pt;
 	line-height: 1.75em;
@@ -68,6 +68,7 @@ strong {
 	padding: 70px 0px;
 	background: url(images/footer-wrapper-bg.jpg) repeat;
 	border-top: 1px solid #EAEAEA;
+
 }
 
 /* Footer Content */
@@ -148,6 +149,7 @@ strong {
 }
 
 #logotipo {
+
 	width:375; 
 	position:absolute;
 	top:50px;
@@ -155,10 +157,36 @@ strong {
 }
 
 
+#galeria {
+
+	width: 1350px; /* el ancho nos limitara el numero de imagenes por fila. */
+
+	margin: auto; /* esto es para centrar todas las imagenes */
+
+}
 
 
+.item {
+
+	float: left;
+
+	width: 350px;
+
+	height: 350px;
+
+	margin-bottom:30px; /* #separación con las filas inferiores */
+
+	overflow: hidden; /* Para que la imagen no se salga */
+
+	margin-left: 80px; /* Separacion por la derecha */
+
+	margin-top: 15px;
+
+}
 
 
+.item img {
 
+	width:350px; /* Tiene que ser como el ancho de .item */
 
-
+}
